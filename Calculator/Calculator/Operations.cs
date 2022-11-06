@@ -25,8 +25,6 @@ namespace Calculator
                     result += num;
                 }
             }
-
-
             lastResult = result;
             return result;
         }
@@ -46,8 +44,6 @@ namespace Calculator
                     result -= num;
                 }
             }
-
-
             lastResult = result;
             return result;
         }
@@ -67,8 +63,6 @@ namespace Calculator
                     result *= num;
                 }
             }
-
-
             lastResult = result;
             return result;
         }
@@ -88,8 +82,6 @@ namespace Calculator
                     result /= num;
                 }
             }
-
-
             lastResult = result;
             return result;
         }

@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace rectangle
+{
+    public class Rectangle {
+    private double width;
+    private double height;
+    private const double PIXELS_PER_MM = 3.7795275591;
+
+    public double CalculateArea(bool inPixels) {
+        double area = this.width * this.height;
+
+        if(inPixels) {
+            area *= PIXELS_PER_MM;
+        }
+        return area; 
+    }
+}
+
+
+
